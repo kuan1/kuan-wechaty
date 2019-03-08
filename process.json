@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "kuan-wechaty",
+      "script": "node src",
+      "watch": false,
+      "instances": 1,
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production",
+        "port": 8003
+      }
+    }
+  ]
+}
